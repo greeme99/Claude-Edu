@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════
+   디자인 토큰 — dev-docs/05_UI디자인시안.md
+   라이트가 기준. 다크는 토큰만 재정의합니다 (CL-06).
+   컴포넌트를 미디어 쿼리 안에서 스타일링하지 않습니다.
+   ══════════════════════════════════════════════════════════ */
+:root{
+  --paper:#FBFAF8;
+  --surface:#FFFFFF;
+  --surface-2:#F2F1ED;
+  --surface-3:#E8E6E0;
+  --ink:#1C1B19;
+  --ink-2:#423F3B;
+  --muted:#6E6A64;
+  --faint:#96918A;
+  --line:#E2E0DA;
+  --line-2:#CBC8C0;
+  --indigo:#2B3F73;
+  --indigo-2:#3D5590;
+  --indigo-soft:#E5E9F3;
+  --on-indigo:#FFFFFF;
+  --ochre:#8A5A18;
+  --ochre-soft:#F5ECDD;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#161513; --surface:#1D1C19; --surface-2:#24231F; --surface-3:#2E2C27;
+    --ink:#EDEBE6; --ink-2:#CAC6BE; --muted:#948F86; --faint:#736E66;
+    --line:#302E29; --line-2:#45423B;
+    --indigo:#93A9DE; --indigo-2:#AEBEE8; --indigo-soft:#1E2740; --on-indigo:#12161F;
+    --ochre:#D6A662; --ochre-soft:#2C2318;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#161513; --surface:#1D1C19; --surface-2:#24231F; --surface-3:#2E2C27;
+  --ink:#EDEBE6; --ink-2:#CAC6BE; --muted:#948F86; --faint:#736E66;
+  --line:#302E29; --line-2:#45423B;
+  --indigo:#93A9DE; --indigo-2:#AEBEE8; --indigo-soft:#1E2740; --on-indigo:#12161F;
+  --ochre:#D6A662; --ochre-soft:#2C2318;
+}
+
+@theme inline{
+  --color-paper:var(--paper);
+  --color-surface:var(--surface);
+  --color-surface-2:var(--surface-2);
+  --color-surface-3:var(--surface-3);
+  --color-ink:var(--ink);
+  --color-ink-2:var(--ink-2);
+  --color-muted:var(--muted);
+  --color-faint:var(--faint);
+  --color-line:var(--line);
+  --color-line-2:var(--line-2);
+  --color-indigo:var(--indigo);
+  --color-indigo-2:var(--indigo-2);
+  --color-indigo-soft:var(--indigo-soft);
+  --color-on-indigo:var(--on-indigo);
+  --color-ochre:var(--ochre);
+  --color-ochre-soft:var(--ochre-soft);
+
+  --font-display:"Gowun Batang","Nanum Myeongjo",Georgia,serif;
+  --font-sans:"IBM Plex Sans KR",-apple-system,"Malgun Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+
+  --leading-ko:1.85;
+}
+
+html{ color-scheme:light dark; }
+body{
+  background:var(--paper);          /* 투명 금지 — 호스트 바탕을 빌려오지 않도록 */
+  color:var(--ink);
+  font-family:var(--font-sans);
+  font-size:15.5px;
+  line-height:1.85;                 /* TY-01 한국어 행간 */
+  -webkit-font-smoothing:antialiased;
+}
+:focus-visible{ outline:2px solid var(--indigo); outline-offset:2px; border-radius:2px; }
+::selection{ background:var(--indigo-soft); color:var(--ink); }
+
+/* 층위 시그니처 — h2 규칙선 */
+.stratum{ position:relative; padding-top:16px; }
+.stratum::before{ content:""; position:absolute; top:0; left:0; right:0; height:1px; background:var(--line); }
+.stratum::after{  content:""; position:absolute; top:0; left:0; width:34px; height:2px; background:var(--indigo); }
+
+/* 용어 마킹 — 색만으로 구분하지 않도록 점선 형태 동반 (TM-01) */
+.term-mark{
+  border-bottom:1.5px dotted var(--indigo);
+  font-weight:500; padding:0 1px; border-radius:2px 2px 0 0;
+  transition:background .15s;
+}
+.term-mark:hover{ background:var(--indigo-soft); }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation:none !important; transition:none !important; scroll-behavior:auto !important; }
+}

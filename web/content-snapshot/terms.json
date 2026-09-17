@@ -1,0 +1,985 @@
+[
+  {
+    "__row": 2,
+    "id": "T-AI",
+    "ko": "인공지능",
+    "en": "AI",
+    "category": "기초개념",
+    "definition": "인간의 학습·추론·판단을 모방하는 컴퓨터 시스템의 총칭이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 3,
+    "id": "T-ML",
+    "ko": "머신러닝",
+    "en": "ML · Machine Learning",
+    "category": "기초개념",
+    "definition": "데이터에서 패턴을 학습하는 AI 하위 분야예요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 4,
+    "id": "T-DL",
+    "ko": "딥러닝",
+    "en": "Deep Learning",
+    "category": "기초개념",
+    "definition": "다층 신경망을 사용하는 머신러닝 하위 분야예요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 5,
+    "id": "T-LLM",
+    "ko": "대규모 언어 모델",
+    "en": "Large Language Model · LLM",
+    "category": "기초개념",
+    "definition": "대량의 텍스트로 훈련된 초거대 신경망 기반 생성 모델이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [
+      "LLM"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 6,
+    "id": "T-TOKEN",
+    "ko": "토큰",
+    "en": "Token",
+    "category": "기초개념",
+    "definition": "LLM이 텍스트를 처리하는 최소 단위예요. 단어·음절·글자 조각 단위로 나뉘어요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 7,
+    "id": "T-PARAM",
+    "ko": "파라미터",
+    "en": "Parameter",
+    "category": "기초개념",
+    "definition": "모델이 학습 중 조정하는 가중치 값이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 8,
+    "id": "T-TRANS",
+    "ko": "트랜스포머",
+    "en": "Transformer",
+    "category": "기초개념",
+    "definition": "현대 LLM의 기반 아키텍처예요. 2017년 발표됐어요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 9,
+    "id": "T-ATTN",
+    "ko": "어텐션",
+    "en": "Attention",
+    "category": "기초개념",
+    "definition": "입력의 각 부분 간 관련도를 계산하는 핵심 메커니즘이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [
+      "Self-Attention"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 10,
+    "id": "T-CTXWIN",
+    "ko": "컨텍스트 윈도우",
+    "en": "Context Window",
+    "category": "기초개념",
+    "definition": "모델이 한 번에 참조할 수 있는 토큰의 최대 범위예요.",
+    "refs": [
+      "TH-01",
+      "TH-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 11,
+    "id": "T-INFER",
+    "ko": "추론",
+    "en": "Inference",
+    "category": "기초개념",
+    "definition": "훈련된 모델이 새 입력에서 출력을 생성하는 과정이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 12,
+    "id": "T-SCALE",
+    "ko": "스케일링 법칙",
+    "en": "Scaling Laws",
+    "category": "기초개념",
+    "definition": "모델 크기·데이터 양·연산량과 성능의 예측 가능한 관계예요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 13,
+    "id": "T-MULTI",
+    "ko": "멀티모달",
+    "en": "Multimodal",
+    "category": "기초개념",
+    "definition": "텍스트 외에 이미지·오디오·영상도 함께 처리하거나 생성하는 능력이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [
+      "옴니모달"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 14,
+    "id": "T-EMBED",
+    "ko": "임베딩",
+    "en": "Embedding",
+    "category": "기초개념",
+    "definition": "텍스트를 의미를 보존한 숫자 벡터로 변환한 표현이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 15,
+    "id": "T-PRE",
+    "ko": "사전학습",
+    "en": "Pre-training",
+    "category": "학습·정렬",
+    "definition": "라벨 없는 텍스트로 다음 토큰 예측을 훈련하는 첫 단계예요.",
+    "refs": [
+      "TH-01",
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 16,
+    "id": "T-FT",
+    "ko": "파인튜닝",
+    "en": "Fine-tuning",
+    "category": "학습·정렬",
+    "definition": "사전학습된 모델을 특정 과제에 맞게 추가 훈련하는 것이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 17,
+    "id": "T-SFT",
+    "ko": "SFT",
+    "en": "Supervised Fine-Tuning",
+    "category": "학습·정렬",
+    "definition": "사람이 작성한 고품질 응답으로 지도 학습하는 파인튜닝이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [
+      "지도 미세조정"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 18,
+    "id": "T-RLHF",
+    "ko": "RLHF",
+    "en": "RL from Human Feedback",
+    "category": "학습·정렬",
+    "definition": "사람의 선호를 보상 신호로 써서 모델을 정렬하는 기법이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [
+      "인간 피드백 강화학습"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 19,
+    "id": "T-DPO",
+    "ko": "DPO",
+    "en": "Direct Preference Optimization",
+    "category": "학습·정렬",
+    "definition": "보상 모델 없이 선호 데이터에서 직접 최적화하는 방법이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [
+      "직접 선호 최적화"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 20,
+    "id": "T-RLAIF",
+    "ko": "RLAIF",
+    "en": "RL from AI Feedback",
+    "category": "학습·정렬",
+    "definition": "사람 대신 AI가 피드백을 생성해 정렬하는 방법이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 21,
+    "id": "T-RM",
+    "ko": "보상 모델",
+    "en": "Reward Model",
+    "category": "학습·정렬",
+    "definition": "사람의 선호를 학습해 출력 품질을 점수화하는 모델이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 22,
+    "id": "T-ALIGN",
+    "ko": "정렬",
+    "en": "Alignment",
+    "category": "학습·정렬",
+    "definition": "모델의 행동을 사람의 의도·가치·안전에 맞추는 과정이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 23,
+    "id": "T-HALL",
+    "ko": "환각",
+    "en": "Hallucination",
+    "category": "학습·정렬",
+    "definition": "사실이 아닌 내용을 사실인 것처럼 자신 있게 생성하는 현상이에요. 버그가 아니라 다음 토큰 예측이라는 구조의 결과예요.",
+    "refs": [
+      "TH-02",
+      "PR-02"
+    ],
+    "aliases": [
+      "할루시네이션"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 24,
+    "id": "T-REASON",
+    "ko": "추론 모델",
+    "en": "Reasoning Model",
+    "category": "학습·정렬",
+    "definition": "답변 전에 내부 사고 과정을 거치는 모델이에요. RL로 사고하는 법 자체를 학습했어요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 25,
+    "id": "T-PEFT",
+    "ko": "PEFT",
+    "en": "Parameter-Efficient Fine-Tuning",
+    "category": "학습·정렬",
+    "definition": "일부 파라미터만 조정하는 효율적 파인튜닝이에요. LoRA가 대표적이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [
+      "LoRA"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 26,
+    "id": "T-RLVR",
+    "ko": "RLVR",
+    "en": "RL with Verifiable Rewards",
+    "category": "학습·정렬",
+    "definition": "수학 정답처럼 검증 가능한 보상으로 강화학습하는 방법이에요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 27,
+    "id": "T-PE",
+    "ko": "프롬프트 엔지니어링",
+    "en": "Prompt Engineering",
+    "category": "프롬프트·컨텍스트",
+    "definition": "LLM에게 지시를 설계해 원하는 행동을 끌어내는 실무 기술이에요. 모델 가중치를 건드리지 않아요.",
+    "refs": [
+      "TH-03",
+      "PR-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 28,
+    "id": "T-PROMPT",
+    "ko": "프롬프트",
+    "en": "Prompt",
+    "category": "프롬프트·컨텍스트",
+    "definition": "사용자가 LLM에 보내는 입력 전체예요. 지시·맥락·예시를 포함해요.",
+    "refs": [
+      "PR-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 29,
+    "id": "T-SYSP",
+    "ko": "시스템 프롬프트",
+    "en": "System Prompt",
+    "category": "프롬프트·컨텍스트",
+    "definition": "대화 전에 설정되는 숨겨진 행동 규칙 지시예요.",
+    "refs": [
+      "TH-03",
+      "PR-06"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 30,
+    "id": "T-ZERO",
+    "ko": "Zero-shot",
+    "en": "제로샷",
+    "category": "프롬프트·컨텍스트",
+    "definition": "예시 없이 지시만으로 과제를 수행하게 하는 방식이에요.",
+    "refs": [
+      "TH-03",
+      "PR-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 31,
+    "id": "T-FEW",
+    "ko": "Few-shot",
+    "en": "퓨샷",
+    "category": "프롬프트·컨텍스트",
+    "definition": "3~5개의 예시로 모델이 패턴을 따라하게 하는 방식이에요.",
+    "refs": [
+      "TH-03",
+      "PR-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 32,
+    "id": "T-COT",
+    "ko": "사고의 연쇄",
+    "en": "CoT · Chain-of-Thought",
+    "category": "프롬프트·컨텍스트",
+    "definition": "중간 추론 단계를 출력하도록 유도하는 프롬프트 기법이에요.",
+    "refs": [
+      "TH-03",
+      "PR-02"
+    ],
+    "aliases": [
+      "CoT"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 33,
+    "id": "T-SC",
+    "ko": "자기 일관성",
+    "en": "Self-Consistency",
+    "category": "프롬프트·컨텍스트",
+    "definition": "여러 추론 경로를 샘플링한 뒤 가장 일관된 답을 고르는 기법이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 34,
+    "id": "T-TOT",
+    "ko": "사고의 나무",
+    "en": "ToT · Tree of Thoughts",
+    "category": "프롬프트·컨텍스트",
+    "definition": "트리 탐색과 상태 평가, 백트래킹을 결합한 추론 기법이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [
+      "ToT"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 35,
+    "id": "T-META",
+    "ko": "메타 프롬프팅",
+    "en": "Meta-Prompting",
+    "category": "프롬프트·컨텍스트",
+    "definition": "지휘자가 전문가들을 오케스트레이션하는 구조의 프롬프트 기법이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [
+      "Conductor-Expert"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 36,
+    "id": "T-CE",
+    "ko": "컨텍스트 엔지니어링",
+    "en": "Context Engineering",
+    "category": "프롬프트·컨텍스트",
+    "definition": "컨텍스트 윈도우 전체를 설계하는 기술이에요. 프롬프트 엔지니어링의 상위 집합이에요.",
+    "refs": [
+      "TH-03",
+      "PR-06"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 37,
+    "id": "T-LIM",
+    "ko": "Lost-in-Middle",
+    "en": "중간 소실",
+    "category": "프롬프트·컨텍스트",
+    "definition": "긴 컨텍스트의 가운데 정보를 잘 활용하지 못하는 현상이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [
+      "중간 소실"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 38,
+    "id": "T-RAG",
+    "ko": "RAG",
+    "en": "Retrieval-Augmented Generation",
+    "category": "프롬프트·컨텍스트",
+    "definition": "외부 DB에서 검색한 정보를 프롬프트에 주입한 뒤 생성하는 방식이에요.",
+    "refs": [
+      "TH-02",
+      "TH-03"
+    ],
+    "aliases": [
+      "검색 증강 생성"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 39,
+    "id": "T-STRUCT",
+    "ko": "구조화 출력",
+    "en": "Structured Output",
+    "category": "프롬프트·컨텍스트",
+    "definition": "XML·JSON으로 출력 형식을 강제해 파싱을 안정화하는 기법이에요.",
+    "refs": [
+      "TH-03",
+      "PR-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 40,
+    "id": "T-COMPRESS",
+    "ko": "컨텍스트 압축",
+    "en": "Context Compression",
+    "category": "프롬프트·컨텍스트",
+    "definition": "요약·추출로 컨텍스트 윈도우를 효율적으로 활용하는 기법이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 41,
+    "id": "T-AGENT",
+    "ko": "에이전트",
+    "en": "Agent",
+    "category": "에이전트·도구",
+    "definition": "계획·도구사용·검증을 자율적으로 반복하는 AI 시스템이에요.",
+    "refs": [
+      "TH-04",
+      "PR-11"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 42,
+    "id": "T-HARNESS",
+    "ko": "하네스",
+    "en": "Harness",
+    "category": "에이전트·도구",
+    "definition": "LLM을 보이지 않는 프롬프트와 호출 가능한 도구로 확장하는 소프트웨어예요. 채팅봇을 에이전트로 바꿔요.",
+    "refs": [
+      "TH-04",
+      "PR-07"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 43,
+    "id": "T-MCP",
+    "ko": "MCP",
+    "en": "Model Context Protocol",
+    "category": "에이전트·도구",
+    "definition": "AI 에이전트를 외부 시스템에 연결하는 개방형 표준 프로토콜이에요.",
+    "refs": [
+      "TH-05",
+      "PR-08"
+    ],
+    "aliases": [
+      "모델 컨텍스트 프로토콜"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 44,
+    "id": "T-SKILLS",
+    "ko": "Skills",
+    "en": "Agent Skills",
+    "category": "에이전트·도구",
+    "definition": "마크다운 파일로 에이전트에게 전문 지식과 절차를 부여하는 재사용 가능한 패키지예요.",
+    "refs": [
+      "TH-05",
+      "PR-09",
+      "PR-10"
+    ],
+    "aliases": [
+      "스킬",
+      "SKILL.md"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 45,
+    "id": "T-TOOLUSE",
+    "ko": "도구 사용",
+    "en": "Tool Use",
+    "category": "에이전트·도구",
+    "definition": "LLM이 외부 API·코드·파일시스템을 호출해 작업을 수행하는 것이에요.",
+    "refs": [
+      "TH-04",
+      "PR-08"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 46,
+    "id": "T-LOOP",
+    "ko": "에이전트 루프",
+    "en": "Agentic Loop",
+    "category": "에이전트·도구",
+    "definition": "수집·행동·검증·반복을 되풀이하는 핵심 실행 패턴이에요.",
+    "refs": [
+      "TH-04",
+      "PR-11"
+    ],
+    "aliases": [
+      "Gather Act Verify"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 47,
+    "id": "T-SUBAGENT",
+    "ko": "서브에이전트",
+    "en": "Sub-agent",
+    "category": "에이전트·도구",
+    "definition": "주 에이전트가 하위 과제를 위임하는 별도 인스턴스예요. 컨텍스트를 격리해요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 48,
+    "id": "T-CLAUDEMD",
+    "ko": "CLAUDE.md",
+    "en": "CLAUDE.md",
+    "category": "에이전트·도구",
+    "definition": "프로젝트 규칙과 스타일을 정의하는 자동 참조 설정 파일이에요.",
+    "refs": [
+      "TH-04",
+      "PR-07"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 49,
+    "id": "T-MULTIAGENT",
+    "ko": "멀티 에이전트",
+    "en": "Multi-Agent",
+    "category": "에이전트·도구",
+    "definition": "여러 에이전트가 역할을 나눠 협력하는 구조예요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 50,
+    "id": "T-AGMEM",
+    "ko": "에이전트 메모리",
+    "en": "Agent Memory",
+    "category": "에이전트·도구",
+    "definition": "대화 간에 정보를 저장하고 재활용하는 메커니즘이에요.",
+    "refs": [
+      "TH-04",
+      "PR-07"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 51,
+    "id": "T-WORKFLOW",
+    "ko": "워크플로우",
+    "en": "Workflow",
+    "category": "에이전트·도구",
+    "definition": "AI 기능들을 순서대로 연결한 자동화 흐름이에요. 경로가 코드에 고정돼 있어요.",
+    "refs": [
+      "PR-12"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 52,
+    "id": "T-COMPUSE",
+    "ko": "컴퓨터 사용",
+    "en": "Computer Use",
+    "category": "에이전트·도구",
+    "definition": "AI가 마우스와 키보드로 컴퓨터를 직접 조작하는 것이에요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 53,
+    "id": "T-ACI",
+    "ko": "ACI",
+    "en": "Agent-Computer Interface",
+    "category": "에이전트·도구",
+    "definition": "에이전트가 도구를 사용하는 인터페이스를 설계하는 원칙이에요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 54,
+    "id": "T-OPENW",
+    "ko": "오픈 웨이트",
+    "en": "Open Weight",
+    "category": "생태계·안전",
+    "definition": "가중치가 공개되어 누구나 다운로드하고 실행할 수 있는 모델이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 55,
+    "id": "T-VLLM",
+    "ko": "vLLM",
+    "en": "vLLM",
+    "category": "생태계·안전",
+    "definition": "오픈 웨이트 모델용 고성능 추론 서빙 엔진이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 56,
+    "id": "T-PI",
+    "ko": "프롬프트 인젝션",
+    "en": "Prompt Injection",
+    "category": "생태계·안전",
+    "definition": "악의적 지시를 삽입해 원래 지시를 무시하고 공격자의 지시를 따르게 만드는 공격이에요.",
+    "refs": [
+      "TH-06"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 57,
+    "id": "T-GUARD",
+    "ko": "가드레일",
+    "en": "Guardrail",
+    "category": "생태계·안전",
+    "definition": "유해하거나 부적절한 출력을 막는 안전장치예요.",
+    "refs": [
+      "TH-02",
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 58,
+    "id": "T-JAGGED",
+    "ko": "Jagged Frontier",
+    "en": "들쭉날쭉한 경계",
+    "category": "생태계·안전",
+    "definition": "AI가 어떤 과제에서는 인간을 압도하지만 옆 과제에서는 기초적 실수를 반복하는 현상이에요.",
+    "refs": [
+      "TH-01",
+      "TH-06"
+    ],
+    "aliases": [
+      "들쭉날쭉한 경계"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 59,
+    "id": "T-JAIL",
+    "ko": "탈옥",
+    "en": "Jailbreak",
+    "category": "생태계·안전",
+    "definition": "안전 필터와 가드레일을 우회하려는 프롬프트 기법의 총칭이에요.",
+    "refs": [
+      "TH-06"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 60,
+    "id": "T-REDTEAM",
+    "ko": "레드팀",
+    "en": "Red Team",
+    "category": "생태계·안전",
+    "definition": "AI의 취약점을 의도적으로 찾는 적대적 테스트예요.",
+    "refs": [
+      "TH-02"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 61,
+    "id": "T-BENCH",
+    "ko": "벤치마크",
+    "en": "Benchmark",
+    "category": "생태계·안전",
+    "definition": "표준 과제로 모델 성능을 측정하고 비교하는 평가 체계예요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 62,
+    "id": "T-WINTER",
+    "ko": "AI 겨울",
+    "en": "AI Winter",
+    "category": "생태계·안전",
+    "definition": "AI에 대한 기대가 꺾이면서 투자와 관심이 급감하는 침체기예요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 63,
+    "id": "T-TOKENIZE",
+    "ko": "토큰화",
+    "en": "Tokenization",
+    "category": "생태계·안전",
+    "definition": "텍스트를 토큰 단위로 분리하는 전처리 과정이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 64,
+    "id": "T-LONGCTX",
+    "ko": "롱 컨텍스트",
+    "en": "Long Context",
+    "category": "생태계·안전",
+    "definition": "수십만에서 수백만 토큰에 이르는 컨텍스트 윈도우 기술이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 65,
+    "id": "T-VECDB",
+    "ko": "벡터 DB",
+    "en": "Vector Database",
+    "category": "생태계·안전",
+    "definition": "임베딩 벡터를 저장하고 유사도로 검색하는 전문 데이터베이스예요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [
+      "벡터 데이터베이스"
+    ],
+    "status": "published"
+  },
+  {
+    "__row": 66,
+    "id": "T-ARTIFACT",
+    "ko": "아티팩트",
+    "en": "Artifact",
+    "category": "생태계·안전",
+    "definition": "AI 대화에서 생성된 독립 산출물이에요. 코드·문서·이미지 등이 해당해요.",
+    "refs": [
+      "PR-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 67,
+    "id": "T-ICL",
+    "ko": "인컨텍스트 학습",
+    "en": "In-Context Learning",
+    "category": "생태계·안전",
+    "definition": "프롬프트의 예시만으로 새 과제를 수행하는 능력이에요.",
+    "refs": [
+      "TH-03"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 68,
+    "id": "T-AUTON",
+    "ko": "자율성 평가",
+    "en": "Autonomy Assessment",
+    "category": "생태계·안전",
+    "definition": "AI의 자율성을 과제별로 판단하는 프레임워크예요.",
+    "refs": [
+      "TH-04",
+      "PR-11"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 69,
+    "id": "T-REFLECT",
+    "ko": "성찰 에이전트",
+    "en": "Reflective Agent",
+    "category": "생태계·안전",
+    "definition": "자기 출력을 검토하고 수정하는 자기 반성 에이전트예요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 70,
+    "id": "T-INFRA",
+    "ko": "추론 인프라",
+    "en": "Inference Infrastructure",
+    "category": "생태계·안전",
+    "definition": "대규모 LLM 추론용 서버·GPU·소프트웨어 스택이에요.",
+    "refs": [
+      "TH-01"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 71,
+    "id": "T-CLOUDAG",
+    "ko": "클라우드 에이전트",
+    "en": "Cloud Agent",
+    "category": "생태계·안전",
+    "definition": "클라우드에서 장시간 자율 작업하는 에이전트예요.",
+    "refs": [
+      "TH-04"
+    ],
+    "aliases": [],
+    "status": "published"
+  },
+  {
+    "__row": 72,
+    "id": "T-REMOTEMCP",
+    "ko": "원격 MCP",
+    "en": "Remote MCP",
+    "category": "생태계·안전",
+    "definition": "원격 서버에서 인터넷을 통해 접근하는 MCP 서버예요.",
+    "refs": [
+      "PR-08"
+    ],
+    "aliases": [],
+    "status": "published"
+  }
+]

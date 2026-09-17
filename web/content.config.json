@@ -1,0 +1,27 @@
+{
+  "sheetId": "1qvRauYKcMoJWM9YwOJmJrYNqAGwJdSkvMbFksIcC6Ms",
+  "source": "gviz",
+  "timeoutMs": 15000,
+  "retries": 2,
+  "tabs": {
+    "lessons":   { "required": ["id","track","seq","title","slug","status","updated_at"] },
+    "terms":     { "required": ["id","ko","category","definition","status"] },
+    "templates": { "required": ["id","category","title","level","status"] },
+    "resources": { "required": ["id","category","title","url","level","lang"] },
+    "quiz":      { "required": ["id","lesson_id","type","question"] }
+  },
+  "enums": {
+    "lessons.track":     ["theory","practice"],
+    "lessons.status":    ["draft","review","published"],
+    "terms.category":    ["기초개념","학습·정렬","프롬프트·컨텍스트","에이전트·도구","생태계·안전"],
+    "terms.status":      ["draft","review","published"],
+    "templates.category":["업무문서","마케팅·콘텐츠","분석·리서치","코드·기술","고급기법"],
+    "templates.level":   ["1","2","3"],
+    "templates.status":  ["draft","review","published"],
+    "resources.category":["공식문서","무료강의","한국어자료","논문","도구"],
+    "resources.level":   ["1","2","3"],
+    "resources.lang":    ["ko","en"],
+    "quiz.type":         ["choice","open"]
+  },
+  "staleResourceDays": 180
+}

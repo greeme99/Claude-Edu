@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.DS_Store
+*.log
+
+# 빌드마다 재생성됩니다 — 커밋하지 않습니다
+.content-cache/
+
+# content-snapshot/ 은 커밋합니다.
+# 구글 장애 시 빌드를 살리는 폴백이므로 리포에 있어야 합니다 (FR-20).

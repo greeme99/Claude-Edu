@@ -1,0 +1,233 @@
+[
+  {
+    "__row": 2,
+    "id": "TH-01",
+    "track": "theory",
+    "seq": 1,
+    "title": "AI는 어떻게 여기까지 왔나",
+    "slug": "ai-history",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 3,
+    "id": "TH-02",
+    "track": "theory",
+    "seq": 2,
+    "title": "AI는 왜 틀리고 왜 맞는가",
+    "slug": "hallucination-multimodal",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 4,
+    "id": "TH-03",
+    "track": "theory",
+    "seq": 3,
+    "title": "프롬프트의 한계와 컨텍스트 엔지니어링",
+    "slug": "context-engineering",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 5,
+    "id": "TH-04",
+    "track": "theory",
+    "seq": 4,
+    "title": "하네스: AI를 진짜로 일하게 만드는 소프트웨어",
+    "slug": "harness",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 6,
+    "id": "TH-05",
+    "track": "theory",
+    "seq": 5,
+    "title": "MCP에서 Skills까지",
+    "slug": "mcp-and-skills",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 7,
+    "id": "TH-07",
+    "track": "theory",
+    "seq": 6,
+    "title": "Cowork: 세 번째 표면",
+    "slug": "cowork",
+    "status": "draft",
+    "updated_at": "",
+    "note": "Phase 02 신규 집필 대상"
+  },
+  {
+    "__row": 8,
+    "id": "TH-06",
+    "track": "theory",
+    "seq": 7,
+    "title": "AI 시대에 무엇을 준비해야 하는가",
+    "slug": "what-to-prepare",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": "본문의 \"6차시(이번 차시)\" 표현을 순번 비의존으로 교체 필요"
+  },
+  {
+    "__row": 9,
+    "id": "PR-01",
+    "track": "practice",
+    "seq": 1,
+    "title": "AI에게 잘 시키는 법",
+    "slug": "prompting-basics",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 10,
+    "id": "PR-02",
+    "track": "practice",
+    "seq": 2,
+    "title": "프롬프트의 한계 직접 체험",
+    "slug": "prompt-limits",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": "\"실습 13차시\" 참조가 깨져 있음 → 수정 필요"
+  },
+  {
+    "__row": 11,
+    "id": "PR-03",
+    "track": "practice",
+    "seq": 3,
+    "title": "업무 문서 AI로 만들기",
+    "slug": "work-documents",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 12,
+    "id": "PR-04",
+    "track": "practice",
+    "seq": 4,
+    "title": "마케팅·기획에 AI 쓰기",
+    "slug": "marketing-planning",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 13,
+    "id": "PR-05",
+    "track": "practice",
+    "seq": 5,
+    "title": "데이터 분석과 시각화",
+    "slug": "data-analysis",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 14,
+    "id": "PR-06",
+    "track": "practice",
+    "seq": 6,
+    "title": "컨텍스트 설계 실습",
+    "slug": "context-design",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 15,
+    "id": "PR-07",
+    "track": "practice",
+    "seq": 7,
+    "title": "CLAUDE.md와 프로젝트 설정",
+    "slug": "claude-md",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 16,
+    "id": "PR-08",
+    "track": "practice",
+    "seq": 8,
+    "title": "MCP: 외부 도구 연결",
+    "slug": "mcp-setup",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 17,
+    "id": "PR-09",
+    "track": "practice",
+    "seq": 9,
+    "title": "Skills 기초: 나만의 전문가",
+    "slug": "skills-basics",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 18,
+    "id": "PR-10",
+    "track": "practice",
+    "seq": 10,
+    "title": "Skills 심화: 복합 스킬",
+    "slug": "skills-advanced",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 19,
+    "id": "PR-11",
+    "track": "practice",
+    "seq": 11,
+    "title": "AI에게 큰 작업 시키기",
+    "slug": "agent-loop",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": ""
+  },
+  {
+    "__row": 20,
+    "id": "PR-12",
+    "track": "practice",
+    "seq": 12,
+    "title": "나만의 AI 워크플로우 설계",
+    "slug": "workflow-design",
+    "status": "published",
+    "updated_at": "2026-09-09",
+    "note": "로드맵 표의 차시 번호 오류 수정 필요"
+  },
+  {
+    "__row": 21,
+    "id": "PR-13",
+    "track": "practice",
+    "seq": 13,
+    "title": "Cowork로 파일 업무 자동화",
+    "slug": "cowork-basics",
+    "status": "draft",
+    "updated_at": "",
+    "note": "Phase 02 신규 집필 대상"
+  },
+  {
+    "__row": 22,
+    "id": "PR-14",
+    "track": "practice",
+    "seq": 14,
+    "title": "Cowork 스킬·커넥터·스케줄 작업",
+    "slug": "cowork-advanced",
+    "status": "draft",
+    "updated_at": "",
+    "note": "Phase 02 신규 집필 대상"
+  }
+]

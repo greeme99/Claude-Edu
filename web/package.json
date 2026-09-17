@@ -1,0 +1,40 @@
+{
+  "name": "claude-edu-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "content": "node scripts/fetch-content.mjs && node scripts/validate-content.mjs",
+    "content:fetch": "node scripts/fetch-content.mjs",
+    "content:validate": "node scripts/validate-content.mjs",
+    "content:bootstrap": "node scripts/bootstrap-snapshot.mjs",
+    "prebuild": "npm run content",
+    "predev": "npm run content",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@next/mdx": "^15.5.0",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "gray-matter": "^4.0.3",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx-frontmatter": "^5.2.0"
+  }
+}

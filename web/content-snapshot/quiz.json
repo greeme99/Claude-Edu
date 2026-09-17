@@ -1,0 +1,317 @@
+[
+  {
+    "__row": 2,
+    "id": "Q-TH01-1",
+    "lesson_id": "TH-01",
+    "type": "choice",
+    "question": "1차 AI 겨울과 2차 AI 겨울의 원인으로 올바르게 짝지은 것은?",
+    "options": [
+      "1차: 데이터 부족 / 2차: 컴퓨트 부족",
+      "1차: 과도한 기대와 부족한 결과 / 2차: 규칙 기반 접근법의 구조적 한계",
+      "1차: 정부 규제 / 2차: 시장 포화",
+      "1차: 알고리즘 오류 / 2차: 하드웨어 실패"
+    ],
+    "answer": 2,
+    "hint": "1차는 기대의 문제, 2차는 접근법의 문제였어요."
+  },
+  {
+    "__row": 3,
+    "id": "Q-TH01-2",
+    "lesson_id": "TH-01",
+    "type": "choice",
+    "question": "Chinchilla 법칙에 따르면 같은 컴퓨트 예산에서 최적의 결과를 내려면?",
+    "options": [
+      "파라미터를 최대한 키우고 데이터는 최소화한다",
+      "데이터를 최대한 늘리고 모델은 작게 유지한다",
+      "모델 크기와 데이터 양을 같은 비율로 키운다",
+      "학습 시간을 2배로 늘린다"
+    ],
+    "answer": 3,
+    "hint": "Chinchilla(70B)가 MT-NLG(530B)를 이긴 이유를 떠올려보세요."
+  },
+  {
+    "__row": 4,
+    "id": "Q-TH01-3",
+    "lesson_id": "TH-01",
+    "type": "open",
+    "question": "추론 모델이 기존 LLM과 근본적으로 다른 점은 무엇이고, 왜 네 번째 스케일링 축이라 불리는지 본인의 말로 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "시험장의 두 학생 비유 — 답을 바로 쓰는 학생과 풀이를 적고 검토하는 학생."
+  },
+  {
+    "__row": 5,
+    "id": "Q-TH01-4",
+    "lesson_id": "TH-01",
+    "type": "open",
+    "question": "DeepSeek R1-Zero가 학술적으로 흥미로운 이유를 매뉴얼 비유를 활용해 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "사람이 생각하는 법을 가르치지 않았는데 어떤 일이 벌어졌는지 떠올려보세요."
+  },
+  {
+    "__row": 6,
+    "id": "Q-TH02-1",
+    "lesson_id": "TH-02",
+    "type": "choice",
+    "question": "AI 환각이 버그가 아니라 구조적 원인에서 비롯된다고 하는 이유로 가장 적절한 것은?",
+    "options": [
+      "학습 데이터가 부족하기 때문이다",
+      "다음 토큰 예측이라는 손실 함수가 그럴듯한 답 생성을 선호하기 때문이다",
+      "프롬프트를 잘 쓰지 않았기 때문이다",
+      "GPU 성능이 부족하기 때문이다"
+    ],
+    "answer": 2,
+    "hint": "빈칸 채우기 시험의 채점 기준 비유를 떠올려보세요."
+  },
+  {
+    "__row": 7,
+    "id": "Q-TH02-2",
+    "lesson_id": "TH-02",
+    "type": "choice",
+    "question": "RLHF의 세 단계를 올바른 순서로 배열한 것은?",
+    "options": [
+      "보상 모델 → SFT → PPO",
+      "SFT → PPO → 보상 모델",
+      "SFT → 보상 모델 → PPO",
+      "PPO → SFT → 보상 모델"
+    ],
+    "answer": 3,
+    "hint": "모범 답안으로 형식을 가르치고, 기준을 만들고, 그 기준에 맞춰 조정하는 순서예요."
+  },
+  {
+    "__row": 8,
+    "id": "Q-TH02-3",
+    "lesson_id": "TH-02",
+    "type": "open",
+    "question": "멀티모달 AI가 이미지를 처리하는 핵심 원리를 편지 번역 비유를 활용해 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "패치로 나누고, 벡터로 변환하고, 텍스트와 같은 공간에 배치하는 과정."
+  },
+  {
+    "__row": 9,
+    "id": "Q-TH02-4",
+    "lesson_id": "TH-02",
+    "type": "open",
+    "question": "환각을 줄이는 세 가지 전략 중 컨텍스트 엔지니어링이 가장 효과적인 이유를, 사실성 환각과 충실성 환각의 차이를 들어 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "약국 비유 — 처방전의 50mg을 500mg으로 읽는 상황에서 가장 효과적인 방어는?"
+  },
+  {
+    "__row": 10,
+    "id": "Q-TH03-1",
+    "lesson_id": "TH-03",
+    "type": "choice",
+    "question": "프롬프트가 컨텍스트 윈도우에서 차지하는 비중으로 가장 가까운 것은?",
+    "options": [
+      "약 25%",
+      "약 5%",
+      "약 0.25%",
+      "약 50%"
+    ],
+    "answer": 3,
+    "hint": "면접장의 첫 마디 인사 비유를 떠올려보세요."
+  },
+  {
+    "__row": 11,
+    "id": "Q-TH03-2",
+    "lesson_id": "TH-03",
+    "type": "choice",
+    "question": "컨텍스트 엔지니어링의 4축을 올바르게 짝지은 것은?",
+    "options": [
+      "Write(토큰 축소), Select(윈도우 밖 저장), Compress(조각 선택), Isolate(분리)",
+      "Write(윈도우 밖 저장), Select(필요한 조각만 꺼냄), Compress(토큰 축소), Isolate(컨텍스트 분리)",
+      "Write(쓰기), Select(읽기), Compress(삭제), Isolate(생성)",
+      "Write(프롬프트), Select(모델), Compress(학습), Isolate(추론)"
+    ],
+    "answer": 2,
+    "hint": "건물을 짓는 비유에서 각 축의 역할을 떠올려보세요."
+  },
+  {
+    "__row": 12,
+    "id": "Q-TH03-3",
+    "lesson_id": "TH-03",
+    "type": "open",
+    "question": "Lost-in-Middle 현상이 왜 발생하는지 교실 수업 비유를 사용해 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "수업 시작할 때 한 말과 방금 한 말은 기억하지만 20분 전 말은 흐릿해지는 것."
+  },
+  {
+    "__row": 13,
+    "id": "Q-TH03-4",
+    "lesson_id": "TH-03",
+    "type": "open",
+    "question": "100개 파일 리팩토링 시나리오에서 Isolate를 적용하는 것이 왜 중요한지 컨텍스트 오염과 연결해 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "서브에이전트가 독립된 컨텍스트에서 작업하면 메인 컨텍스트에 어떤 영향이 있을까요?"
+  },
+  {
+    "__row": 14,
+    "id": "Q-TH04-1",
+    "lesson_id": "TH-04",
+    "type": "choice",
+    "question": "Claude.ai와 Claude Code에 같은 모델이 들어 있는데 결과가 다른 이유는?",
+    "options": [
+      "Claude Code에 더 똑똑한 모델이 들어 있어서",
+      "하네스가 있어서 파일 접근·도구 호출·검증 루프가 가능하기 때문",
+      "Claude.ai는 인터넷에 연결되어 있지 않아서",
+      "Claude Code는 유료라서 성능이 더 좋음"
+    ],
+    "answer": 2,
+    "hint": "Product Overhang의 핵심은 모델이 아니라 소프트웨어의 차이예요."
+  },
+  {
+    "__row": 15,
+    "id": "Q-TH04-2",
+    "lesson_id": "TH-04",
+    "type": "open",
+    "question": "에이전트 루프의 네 단계를 순서대로 나열하고, 가장 자주 빠뜨려지면서 가장 치명적인 단계가 무엇인지 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "의사의 진료 과정 — 약을 처방하고 나서 빠뜨리기 쉬운 것은?"
+  },
+  {
+    "__row": 16,
+    "id": "Q-TH04-3",
+    "lesson_id": "TH-04",
+    "type": "choice",
+    "question": "다음 중 ACI 설계의 올바른 원칙이 아닌 것은?",
+    "options": [
+      "도구 설명을 최대한 짧게 줄여 컨텍스트를 절약한다",
+      "상대 경로 대신 절대 경로를 강제한다",
+      "모델이 도구를 처음 보는 주니어 개발자라고 상상하고 설계한다",
+      "실수가 어렵도록 위험한 기본값을 제거한다"
+    ],
+    "answer": 1,
+    "hint": "도구 설명은 길어도 괜찮아요. 짧지만 모호한 것보다 길지만 명확한 것이 나아요."
+  },
+  {
+    "__row": 17,
+    "id": "Q-TH04-4",
+    "lesson_id": "TH-04",
+    "type": "open",
+    "question": "반패턴 3가지 중 하나를 골라 왜 위험한지 자신만의 비유로 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "자판기와 바리스타, 채점 기준 변경 등의 비유를 참고하되 자신만의 비유를 만들어보세요."
+  },
+  {
+    "__row": 18,
+    "id": "Q-TH05-1",
+    "lesson_id": "TH-05",
+    "type": "choice",
+    "question": "MCP를 AI의 USB-C라고 부르는 이유는?",
+    "options": [
+      "USB-C 케이블을 통해 연결되기 때문",
+      "N×M개의 커넥터를 단일 표준으로 통일하기 때문",
+      "충전 기능을 제공하기 때문",
+      "Anthropic이 하드웨어 회사이기 때문"
+    ],
+    "answer": 2,
+    "hint": "USB 이전에 프린터·마우스·스캐너 케이블이 전부 달랐던 상황을 떠올려보세요."
+  },
+  {
+    "__row": 19,
+    "id": "Q-TH05-2",
+    "lesson_id": "TH-05",
+    "type": "choice",
+    "question": "MCP의 3자 구조를 공항 비유로 올바르게 연결한 것은?",
+    "options": [
+      "Host=비행기, Client=터미널, Server=탑승구",
+      "Host=터미널, Client=탑승구, Server=항공사 비행기",
+      "Host=승객, Client=비행기, Server=터미널",
+      "Host=탑승구, Client=터미널, Server=승객"
+    ],
+    "answer": 2,
+    "hint": "하나의 터미널에 여러 탑승구가 있고, 각 탑승구가 다른 항공사와 연결되는 구조."
+  },
+  {
+    "__row": 20,
+    "id": "Q-TH05-3",
+    "lesson_id": "TH-05",
+    "type": "choice",
+    "question": "Skills의 자동 매칭에서 가장 중요한 프론트매터 필드는?",
+    "options": [
+      "name",
+      "description",
+      "allowed-tools",
+      "context"
+    ],
+    "answer": 2,
+    "hint": "Claude가 지금 이 스킬이 필요한가를 판단할 때 무엇을 보는지 떠올려보세요."
+  },
+  {
+    "__row": 21,
+    "id": "Q-TH05-4",
+    "lesson_id": "TH-05",
+    "type": "open",
+    "question": "MCP와 Skills의 관계를 장비 vs 교육 비유로 설명하고, MCP만 있고 Skills가 없을 때 어떤 문제가 생기는지 구체적으로 서술하세요.",
+    "options": [],
+    "answer": null,
+    "hint": "장비는 있지만 진료 프로토콜이 없는 병원에서 어떤 일이 벌어질까요?"
+  },
+  {
+    "__row": 22,
+    "id": "Q-TH05-5",
+    "lesson_id": "TH-05",
+    "type": "open",
+    "question": "나쁜 스킬의 안티패턴 3가지를 설명하고 각각의 해결책을 제시하세요.",
+    "options": [],
+    "answer": null,
+    "hint": "과적, MCP 미러링, 자동 호출 남용의 세 가지를 떠올려보세요."
+  },
+  {
+    "__row": 23,
+    "id": "Q-TH06-1",
+    "lesson_id": "TH-06",
+    "type": "choice",
+    "question": "직접 인젝션과 간접 인젝션의 가장 큰 차이는?",
+    "options": [
+      "직접은 텍스트, 간접은 이미지를 이용한다",
+      "직접은 사용자가 대화창에 공격하고, 간접은 외부 데이터에 공격을 숨긴다",
+      "직접은 채팅봇만, 간접은 에이전트만 공격한다",
+      "직접은 방어가 불가능하고, 간접은 완벽히 방어할 수 있다"
+    ],
+    "answer": 2,
+    "hint": "우체국 직원 비유 — 고객이 직접 거짓말하는 것 vs 편지 안에 지시를 숨기는 것."
+  },
+  {
+    "__row": 24,
+    "id": "Q-TH06-2",
+    "lesson_id": "TH-06",
+    "type": "choice",
+    "question": "BCG 실험에서 AI 능력 경계 바깥의 과제를 수행할 때 AI를 사용한 컨설턴트의 성과가 하락한 이유는?",
+    "options": [
+      "AI가 해당 과제를 거부했기 때문",
+      "AI의 자신감 있는 오답을 검증 없이 수용했기 때문",
+      "AI의 응답 속도가 너무 느렸기 때문",
+      "컨설턴트가 AI 사용법을 몰랐기 때문"
+    ],
+    "answer": 2,
+    "hint": "경계 바깥에서 AI가 함정이 되는 메커니즘을 떠올려보세요."
+  },
+  {
+    "__row": 25,
+    "id": "Q-TH06-3",
+    "lesson_id": "TH-06",
+    "type": "open",
+    "question": "AI 시대에 개인이 준비해야 할 것 2가지를 제시하고 각각이 왜 중요한지 본인의 말로 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "하나는 AI를 이해하는 능력, 다른 하나는 AI 위에서 방향을 잡는 능력."
+  },
+  {
+    "__row": 26,
+    "id": "Q-TH06-4",
+    "lesson_id": "TH-06",
+    "type": "open",
+    "question": "사라지는 것은 직업이 아니라 작업이다라는 주장을 ATM 비유를 활용해 설명해보세요.",
+    "options": [],
+    "answer": null,
+    "hint": "ATM 등장 뒤 은행 창구 직원의 수와 역할이 어떻게 변했는지 떠올려보세요."
+  }
+]
